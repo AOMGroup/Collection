@@ -1,0 +1,35 @@
+{
+  "name": "aom/collection",
+  "description": "An alternative to Doctrine's ArrayCollection",
+  "authors": [
+    {
+      "name": "Radu Dragomir",
+      "email": "noramarth@aom.ro",
+      "role": "Developer"
+    }
+  ],
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "AOM\\Lib\\Collection\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AOM\\Tests\\Collection\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^7.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^8"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "stable"
+    },
+    "sort-packages": true
+  }
+}
